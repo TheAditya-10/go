@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/TheAditya-10/go/phase2/concurrency"
+	"github.com/TheAditya-10/go/phase3/server"
 )
 
 func main() {
-	concurrency.SelectExample()
+	server.StartServer()
 }
